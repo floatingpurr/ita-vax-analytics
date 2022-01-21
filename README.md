@@ -1,5 +1,7 @@
 # ita-vax-analytics
 
+[![analytics](https://github.com/floatingpurr/ita-vax-analytics/actions/workflows/analytics.yml/badge.svg)](https://github.com/floatingpurr/ita-vax-analytics/actions/workflows/analytics.yml)
+
 Statistiche pre-calcolate e riusabili sui dati della campagna vaccinale anti Covid in Italia.
 
 ## Per cosa può essere utile questo repository?
