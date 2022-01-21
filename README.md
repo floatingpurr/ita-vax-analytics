@@ -2,9 +2,9 @@
 
 Statistiche pre-calcolate e riusabili sui dati della campagna vaccinale anti Covid in Italia.
 
-## Che problema risolve questo repository?
+## Per cosa può essere utile questo repository?
 
->_TL;DR_: in questo repository, sono disponibili [elaborazioni statistiche pre-calcolate](data) sui dati della campagna vaccinale anti Covid in Italia.
+>_TL;DR_: in questo repository, sono disponibili [elaborazioni statistiche pre-calcolate](data/00_ciclo_primario_e_booster) sui dati della campagna vaccinale anti Covid in Italia.
 
 I dati sulla campagna vaccinale sono rilasciati ufficialmente su [questo repository](https://github.com/italia/covid19-opendata-vaccini). Questi dati necessitano di continue rielaborazioni che vengono spesso replicate in maniera equivalente in diversi progetti analitici e non.
 
@@ -14,8 +14,8 @@ Lo scopo di questo progetto è fornire un processamento dati centralizzato e ape
 
 Sono disponibili statistiche su due **fatti** principali:
 
-* cicli vaccinali primari completati
-* dosi booster
+* **cicli vaccinali primari completati**
+* **dosi booster**
 
 I dati sono elaborati per diverse combinazioni di **dimensioni** di analisi, che riguardano:
 
@@ -32,9 +32,11 @@ rispettivamente calcolate per **serie temporali** di natura differente:
 
 ## Licenza e modalità d’utilizzo
 
+Il codice di questo progetto è rilasciato con licenza [MIT](LICENSE).
+
 I dati originari processati in questo repository sono rilasciati con licenza **CC BY 4.0**. Le elaborazioni derivate in questo progetto sono quindi riusabili, riconoscendo alla fonte originaria il diritto di attribuzione ([qui](https://github.com/italia/covid19-opendata-vaccini/blob/master/LICENSE.md) ulteriori dettagli).
 
-Le elaborazioni di questo repository sono rilasciate in **CC0** (ie. _pubblico dominio_). E' comunque gradito un eventuale riferimento a questo lavoro.
+Le elaborazioni di questo repository sono rilasciate in **CC0** (i.e., _pubblico dominio_). E' comunque apprezzato un eventuale riferimento a questo repository.
 
 ## Crediti
 

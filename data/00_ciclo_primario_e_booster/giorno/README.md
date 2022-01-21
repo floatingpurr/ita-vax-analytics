@@ -5,7 +5,7 @@ Questa classe di report rappresenta il **dato giornaliero** per ogni data _d_ re
 ## Fatti
 
 * `vaccinazioni`: cicli vaccinali completati nella data _d_
-* `booster`: ddosi di richiamo effettuate nella data _d_
+* `booster`: dosi di richiamo effettuate nella data _d_
 
 ## Dimensioni
 

@@ -1,6 +1,6 @@
 # Report generali di sommario
 
-Questa classe di report rappresenta i **dati aggregati al giorno corrente**. Difatti, l'asse temporale viene condensato in un unica riga riassuntiva per ogni combinazione di dimensione di analisi.
+Questa classe di report rappresenta i **dati aggregati al giorno corrente**. Difatti, l'asse temporale viene condensato in un'unica riga riassuntiva per ogni combinazione di dimensione di analisi.
 
 ## Fatti
 
