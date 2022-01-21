@@ -45,3 +45,9 @@ Le elaborazioni di questo repository sono rilasciate in **CC0** (i.e., _pubblico
 * I dati originari provengono da questa fonte istituzionale (**CC BY 4.0**) : <https://github.com/italia/covid19-opendata-vaccini>
 
 * Un ringraziamento a [Vittorio Nicoletta](https://twitter.com/vi__enne) per il _proofreading_ diffuso di questo progetto
+
+## Esempi di utilizzo
+
+🚧 _work in progress_
+
+* [COVID-19 Vaccination Analytics](https://observablehq.com/@floatingpurr/italian-vaccination-analytics)
