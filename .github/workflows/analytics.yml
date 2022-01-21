@@ -4,7 +4,7 @@ name: analytics
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "*/15 * * * *"
 
 jobs:
   # Set the job key.
@@ -43,7 +43,7 @@ jobs:
           echo "Checking data on: `date`"
           git config --global user.name 'GitHub Actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -am "Refresh data on: `date`"
+          git commit -am "Refresh data on: `date`" || true
           git push
         env:
           TZ: Europe/Rome
