@@ -30,6 +30,8 @@ rispettivamente calcolate per **serie temporali** di natura differente:
 * dato giornaliero cumulativo,
 * dato giornaliero cumulativo con distribuzioni temporali.
 
+Ulteriori dettagli sono presenti nei `README` all'intenro delle cartelle dei report.
+
 ## Licenza e modalità d’utilizzo
 
 Il codice di questo progetto è rilasciato con licenza [MIT](LICENSE).
