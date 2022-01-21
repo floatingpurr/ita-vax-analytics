@@ -27,7 +27,7 @@ jobs:
 
       # Install yarn
       - name: Install yarn
-      - run: npm install -g yarn
+        run: npm install -g yarn
 
       # Install dependencies from yarn.lock
       - name: Install dependencies
