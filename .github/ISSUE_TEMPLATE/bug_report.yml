@@ -10,9 +10,9 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: Ho letto e compreso lo [schema dati](../data/00_ciclo_primario_e_booster/README.md) di questo progetto
+        - label: Ho letto e compreso lo [schema dati](../tree/main/data/00_ciclo_primario_e_booster/README.md) di questo progetto
           required: true
-        - label: Ho verificato che non ci siano già segnalazioni o [discussioni](discussions) simili
+        - label: Ho verificato che non esistano già segnalazioni o [discussioni](discussions) simili
           required: true
   - type: textarea
     id: what-happened

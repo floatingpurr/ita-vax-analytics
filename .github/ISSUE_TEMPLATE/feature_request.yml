@@ -12,7 +12,7 @@ body:
       options:
         - label: Ho letto e compreso lo [schema dati](../data/00_ciclo_primario_e_booster/README.md) di questo progetto.
           required: true
-        - label: Ho verificato che non ci siano già richieste o [discussioni](discussions) simili.
+        - label: Ho verificato che non esistano già richieste o [discussioni](discussions) simili.
           required: true
   - type: textarea
     id: fr
