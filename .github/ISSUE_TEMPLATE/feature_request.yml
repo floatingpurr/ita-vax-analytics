@@ -1,0 +1,35 @@
+name: 🚀 Feature Request
+description: Richieste di nuovi report sui dati
+title: "[Feature Request]: "
+labels: ["enhancement "]
+assignees:
+  - floatingpurr
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Ho letto e compreso lo [schema dati](../data/00_ciclo_primario_e_booster/README.md) di questo progetto.
+          required: true
+        - label: Ho verificato che non ci siano già richieste o [discussioni](discussions) simili.
+          required: true
+  - type: textarea
+    id: fr
+    attributes:
+      label: Descrizione della nuova feature
+      description: Quale novità vorresti vedere?
+      placeholder: Descrizione della proposta e dei problemi che risolve.
+    validations:
+      required: true
+  - type: textarea
+    id: fr-output-example
+    attributes:
+      label: Esempio di output
+      description: Inserire un esempio di CSV atteso (intestazioni e dati).
+      render: csv
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: 😊 Grazie per l'aiuto!

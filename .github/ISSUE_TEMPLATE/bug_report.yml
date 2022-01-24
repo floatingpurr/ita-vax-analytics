@@ -1,0 +1,59 @@
+name: 🚨 Data Bug
+description: Segnalazione di bug e problemi sui dati
+title: "[Data Bug]: "
+labels: ["bug"]
+assignees:
+  - floatingpurr
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Ho letto e compreso lo [schema dati](../data/00_ciclo_primario_e_booster/README.md) di questo progetto
+          required: true
+        - label: Ho verificato che non ci siano già segnalazioni o [discussioni](discussions) simili
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Descrizione del problema
+      description: Cosa è successo? In quali file?
+      placeholder: Descrizione del problema rilevato esplicitando i file interessati
+    validations:
+      required: true
+  - type: textarea
+    id: expected-output
+    attributes:
+      label: Comportamento atteso
+      description: Cosa ti aspetti di vedere?
+      placeholder: Descrivere il comportamento atteso.
+    validations:
+      required: true
+  - type: textarea
+    id: actual-output
+    attributes:
+      label: Comportamento rilevato
+      description: Cosa accade al posto di ciò che ti aspetti?
+      placeholder: Descrivere il comportamento (ie. il bug) rilevato nella versione corrente.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-output-example
+    attributes:
+      label: Esempio di output rilevato
+      description: Inserire una porzione dei CSV in cui viene riscontrato un problema (intestazioni e dati).
+      render: csv
+    validations:
+      required: true
+  - type: textarea
+    id: actual-output-example
+    attributes:
+      label: Esempio di output atteso
+      description: Inserire un esempio di CSV atteso (intestazioni e dati).
+      render: csv
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: 😊 Grazie per l'aiuto!
