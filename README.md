@@ -2,6 +2,7 @@
 
 [![analytics](https://github.com/floatingpurr/ita-vax-analytics/actions/workflows/analytics.yml/badge.svg)](https://github.com/floatingpurr/ita-vax-analytics/actions/workflows/analytics.yml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![GitHub commit](https://img.shields.io/github/last-commit/floatingpurr/ita-vax-analytics)](https://github.com/floatingpurr/ita-vax-analytics/commits)
 
 Statistiche pre-calcolate e riusabili sui dati della campagna vaccinale anti Covid in Italia.
 
