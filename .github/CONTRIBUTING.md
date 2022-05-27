@@ -7,7 +7,7 @@ making a change.
 # Set up your dev environment
 
 This repo exploits [husky](https://typicode.github.io/husky/#/) for git hooks.
-Upon forking this repo,run the following commands:
+Upon forking this repo, run the following commands:
 
 ```bash
 $ yarn install
