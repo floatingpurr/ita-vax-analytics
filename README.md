@@ -1,4 +1,4 @@
-# Chiusura del servìzio
+# Chiusura del servizio
 
 Questo servizio è sospeso.
 
