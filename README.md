@@ -1,3 +1,7 @@
+# Chiusura del servìzio
+
+Questo servizio è sospeso.
+
 # ita-vax-analytics
 
 [![analytics](https://github.com/floatingpurr/ita-vax-analytics/actions/workflows/analytics.yml/badge.svg)](https://github.com/floatingpurr/ita-vax-analytics/actions/workflows/analytics.yml)
